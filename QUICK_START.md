@@ -2,25 +2,25 @@
 
 ## Step 1: Clean Your Code
 Remove Vite references that are no longer needed:
-```bash
+\`\`\`bash
 # These files are no longer needed - can be deleted:
 rm -rf src/
 rm vite.config.ts
 rm index.html
-```
+\`\`\`
 
 ## Step 2: Verify Environment Variables
 Make sure you have MongoDB connection string ready:
-```
+\`\`\`
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname?retryWrites=true&w=majority
-```
+\`\`\`
 
 ## Step 3: Push to GitHub
-```bash
+\`\`\`bash
 git add .
 git commit -m "Clean: Remove Vite, migrate to pure Next.js"
 git push origin main
-```
+\`\`\`
 
 ## Step 4: Deploy on Vercel
 1. Go to https://vercel.com
@@ -52,9 +52,9 @@ git push origin main
 ## Access Your App
 
 After deployment, your app will be available at:
-```
+\`\`\`
 https://your-project-name.vercel.app
-```
+\`\`\`
 
 Vercel automatically provides:
 - HTTPS/SSL
@@ -66,7 +66,7 @@ Vercel automatically provides:
 
 ## File Structure You're Deploying
 
-```
+\`\`\`
 app/
 ├── api/              # All backend routes
 ├── components/       # React components
@@ -84,7 +84,7 @@ No more:
 ✗ vite.config.ts
 ✗ React Router
 ✗ Webpack config
-```
+\`\`\`
 
 ---
 
@@ -103,11 +103,11 @@ That's it! Everything else is configured.
 ## Local Development
 
 To test before deploying:
-```bash
+\`\`\`bash
 npm install
 npm run dev
 # Visit http://localhost:3000
-```
+\`\`\`
 
 ---
 

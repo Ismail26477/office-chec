@@ -54,7 +54,7 @@ Your Next.js API routes handle:
 
 ### Step 1: Push Code to GitHub
 
-```bash
+\`\`\`bash
 # Navigate to your project
 cd your-project-folder
 
@@ -73,7 +73,7 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 # Push to GitHub
 git branch -M main
 git push -u origin main
-```
+\`\`\`
 
 ### Step 2: Deploy to Vercel
 
@@ -94,15 +94,15 @@ git push -u origin main
 
 In Vercel Dashboard → Project Settings → Environment Variables, add:
 
-```
+\`\`\`
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/office_management?retryWrites=true&w=majority
-```
+\`\`\`
 
 ---
 
 ## Project Structure (Clean & Ready)
 
-```
+\`\`\`
 app/
 ├── api/                    # All backend API routes
 │   ├── auth/
@@ -129,7 +129,7 @@ app/
 ├── login/
 │   └── page.tsx          # Login page
 └── globals.css            # Global styles
-```
+\`\`\`
 
 ---
 
@@ -169,10 +169,10 @@ app/
 
 Create these in Vercel Project Settings:
 
-```
+\`\`\`
 MONGODB_URI=your_mongodb_connection_string
 NEXT_PUBLIC_API_URL=https://your-vercel-url.vercel.app
-```
+\`\`\`
 
 ---
 
