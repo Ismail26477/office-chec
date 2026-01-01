@@ -25,3 +25,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+dist/
+build/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Old Vite/React files (can be deleted locally)
+src/
+server/
+vite.config.ts
+index.html

@@ -2,9 +2,9 @@
 
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { useAuth } from "@/contexts/auth-context"
-import EmployeeDashboard from "@/pages/employee-dashboard"
-import AdminDashboard from "@/pages/admin-dashboard"
+import { useAuth } from "@/app/contexts/auth-context"
+import EmployeeDashboard from "@/app/pages/employee-dashboard"
+import AdminDashboard from "@/app/pages/admin-dashboard"
 import { Loader2 } from "lucide-react"
 
 export default function Page() {
